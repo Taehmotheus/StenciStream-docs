@@ -1,0 +1,37 @@
+{
+    "tau": 100e-15,
+    "dx": 5e-9,
+    "time": {
+        "t_cutoff": 7.0,
+        "t_detect": 14.0,
+        "t_max": 15.0,
+        "t_snap": 0.1
+    },
+    "source": {
+        "frequency": 120e12,
+        "phase": 3.0,
+        "x": 0,
+        "y": 0,
+        "radius": 0
+    },
+    "cavity_rings": [
+        {
+            "width": 400e-9,
+            "mu_r": 11.56,
+            "eps_r": 1.0,
+            "sigma": 0.0
+        },
+        {
+            "width": 50e-9,
+            "mu_r": 20.0,
+            "eps_r": 20.0,
+            "sigma": 0.0
+        },
+        {
+            "width": 350e-9,
+            "mu_r": 11.56,
+            "eps_r": 1.0,
+            "sigma": 0.0
+        }
+    ]
+}

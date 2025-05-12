@@ -1,0 +1,9 @@
+# executables
+fdtd_*
+
+# Output
+*.csv
+*.gz
+profile.*
+1
+metrics.*.json
