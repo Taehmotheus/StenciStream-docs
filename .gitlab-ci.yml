@@ -19,6 +19,7 @@ default:
 
 .cheap_job:
     rules:
+        - if: always
         - if: $CI_PIPELINE_SOURCE == 'merge_request_event' # Run for all merge-requests (even drafts)
         - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH # Run on the main branch
 
