@@ -946,7 +946,7 @@ WARN_LOGFILE           =
 INPUT                  = StencilStream \
                          docs/Introduction.md \
                          docs/Installation.md \
-                         docs/Getting-Started.md \
+                         docs/Basic-concepts.md \
                          docs/Backends.md \
                          docs 
 

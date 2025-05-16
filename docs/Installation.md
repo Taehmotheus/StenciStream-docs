@@ -70,7 +70,7 @@ Depending on your hardware, additional toolchains may be required, such as CUDA 
 
 > 📌 Tip: If you're targeting GPUs with Codeplay’s SYCL plugins, make sure to follow the installation instructions provided on the [Codeplay developer portal](https://developer.codeplay.com/) for your backend and platform.
 
----
+----
 
 ### 🔧 Get the framework
 
